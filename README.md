@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Welcome to Pybind with xlwings
 
-You can use the [editor on GitHub](https://github.com/damian123/pybind/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+How to debug:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A) Checkout the code from git into for example C:\dev\xlwings\pybind
+   Checkout pybind11 in d:\dev\GibHub
 
-### Markdown
+B) Start Visual Studio and open pybind.sln.<br/>
+   Build the example project using debug x86<br/>
+   Copy example.pyd and example.pdb to C:\dev\xlwings\pybind\excel<br/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+C) Start Pycharm and open the project in C:\dev\xlwings\pybind\excel
 
-```markdown
-Syntax highlighted code block
+D) Start Excel and open the workbook C:\dev\xlwings\pybind\excel\sample.xlsm<br/>
+  Calculate the sheet by pressing F9 to see if it works.
 
-# Header 1
-## Header 2
-### Header 3
+E) Set a breakpoint in pycharm<br/>
+   Press F9 in the XL sheet.<br/>
+   You should now hit the breakpoint<br/>
+   In Visual Studio attach to the python.exe process<br/>
+   Set a breakpoint in the C++ code.<br/>
+   Set one line in Pycharm and you should hit the breakpoint in Visual Studio.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/damian123/pybind/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You need to have the following software installed:<br/>
+pycharm<br/>
+anaconda 32 bit (which includes xlwings)<br/>
+Excel 32 bit<br/>
+Visual Studio 2017
