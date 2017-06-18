@@ -31,4 +31,7 @@ You need to have the following software installed:<br/>
 pycharm<br/>
 anaconda 32 bit (which includes xlwings)<br/>
 Excel 32 bit<br/>
-Visual Studio 2017
+Visual Studio 2017<br/>
+
+You also need to set the Python Interpreater in Pycharm.<br/>
+![Alt text](/screenshoots/pythoninterpreater.png?raw=true "Python Interpreater")<br/>
