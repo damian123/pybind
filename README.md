@@ -9,18 +9,22 @@ B) Start Visual Studio and open pybind.sln.<br/>
    Build the example project using debug x86<br/>
    Copy example.pyd and example.pdb to C:\dev\xlwings\pybind\excel<br/>
    ![Alt text](/screenshoots/vs2017.png?raw=true "Visual Studio 2007")
+   ![Alt text](/screenshoots/copyfiles.png?raw=true "Copy Files")
 
 C) Start Pycharm and open the project in C:\dev\xlwings\pybind\excel
-
 
 D) Start Excel and open the workbook C:\dev\xlwings\pybind\excel\sample.xlsm<br/>
   Calculate the sheet by pressing F9 to see if it works.
 
 E) Set a breakpoint in pycharm<br/>
+![Alt text](/screenshoots/firstbreakpoint.png?raw=true "First Breakpoint")
    Press F9 in the XL sheet.<br/>
    You should now hit the breakpoint<br/>
    In Visual Studio attach to the python.exe process<br/>
+ ![Alt text](/screenshoots/attachtoprocess1.png?raw=true "Attach to process 1")
+ ![Alt text](/screenshoots/attachtoprocess2.png?raw=true "Attach to process 2")
    Set a breakpoint in the C++ code.<br/>
+ ![Alt text](/screenshoots/secondbreakpoint.png?raw=true "Second breakpoint")
    Set one line in Pycharm and you should hit the breakpoint in Visual Studio.
 
 You need to have the following software installed:<br/>
