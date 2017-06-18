@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Welcome to Pybind with xlwings
 
-You can use the [editor on GitHub](https://github.com/damian123/pybind/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+How to debug:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A) Checkout the code from git into for example C:\dev\xlwings\pybind
 
-### Markdown
+B) Start Visual Studio and open pybind.sln. 
+Build the example project using debug x86
+Copy example.pyd and example.pdb to C:\dev\xlwings\pybind\excel
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+C) Start Pycharm and open the project in C:\dev\xlwings\pybind\excel
 
-```markdown
-Syntax highlighted code block
+D) Start Excel and open the workbook C:\dev\xlwings\pybind\excel\sample.xlsm
+Calulate the sheet by pressing F9 to see if it works.
 
-# Header 1
-## Header 2
-### Header 3
+E) set a breakpoint in pycharm
+Press F9 in the XL sheet.
+You should now hit the breakpoint
+In Visual Studio attach to the python.exe process
+Set a breakpoint in the C++ code.
+Set one line in Pycharm and you should hit the breakpoint in Visual Studio.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/damian123/pybind/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You need to have the following software installed:
+pycharm
+anaconda 32 bit (which includes xlwings)
+Excel 32 bit
+Visual Studio 2017
