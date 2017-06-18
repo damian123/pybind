@@ -8,8 +8,10 @@ A) Checkout the code from git into for example C:\dev\xlwings\pybind
 B) Start Visual Studio and open pybind.sln.<br/>
    Build the example project using debug x86<br/>
    Copy example.pyd and example.pdb to C:\dev\xlwings\pybind\excel<br/>
+   ![Alt text](/screenshoots/vs2017.png?raw=true "Visual Studio 2007")
 
 C) Start Pycharm and open the project in C:\dev\xlwings\pybind\excel
+
 
 D) Start Excel and open the workbook C:\dev\xlwings\pybind\excel\sample.xlsm<br/>
   Calculate the sheet by pressing F9 to see if it works.
