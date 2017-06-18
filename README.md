@@ -35,3 +35,7 @@ Visual Studio 2017<br/>
 
 You also need to set the Python Interpreter in Pycharm.<br/>
 ![Alt text](/screenshoots/pythoninterpreter.png?raw=true "Python Interpreter")<br/>
+
+
+Sources: 
+A) http://docs.xlwings.org/en/stable/debugging.html
