@@ -34,4 +34,4 @@ Excel 32 bit<br/>
 Visual Studio 2017<br/>
 
 You also need to set the Python Interpreater in Pycharm.<br/>
-![Alt text](/screenshoots/pythoninterpreater.png?raw=true "Python Interpreater")<br/>
+![Alt text](/screenshoots/pythoninterpreter.png?raw=true "Python Interpreater")<br/>
