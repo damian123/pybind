@@ -33,5 +33,5 @@ anaconda 32 bit (which includes xlwings)<br/>
 Excel 32 bit<br/>
 Visual Studio 2017<br/>
 
-You also need to set the Python Interpreater in Pycharm.<br/>
-![Alt text](/screenshoots/pythoninterpreter.png?raw=true "Python Interpreater")<br/>
+You also need to set the Python Interpreter in Pycharm.<br/>
+![Alt text](/screenshoots/pythoninterpreter.png?raw=true "Python Interpreter")<br/>
